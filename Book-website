@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact-form.html">Contact Us</a></li>
+            <li><a href="shopping-cart.html">Cart</a></li>
+            <li><a href="profile.html">User Profile</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article id="book-list">
+            <section id="featured-authors">
+                <div class="book-card">
+                    <img class="book-image" src="assets/bookwithnopictures.jpeg"
+                        alt="The Book With No Pictures">
+                    <div class="book-info-block">
+                        <h3 class="book-title">The Book With No Pictures</h3>
+                        <h4 class="book-author">B.J. Novak</h4>
+                        <p class="book-description">A modern classic of pure silliness. Forces the reader to say ridiculous things—kids love it.</p>
+                        <h5 class="book-price">$9.99</h5>
+                        <button class="add-book-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img class="book-image" src="assets/EveryonePoops.jpeg" alt="Everyone Poops">
+                    <div class="book-info-block">
+                        <h3 class="book-title">Everyone Poops</h3>
+                        <h4 class="book-author">Taro Gomi</h4>
+                        <p class="book-description">Timeless potty humor. Simple, bold, and always gets giggles from young readers.
+                        </p>
+                        <h5 class="book-price">$9.99</h5>
+                        <button class="add-book-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img class="book-image" src="assets/GoTheFtoSleep.jpg" alt="Go The F To Sleep">
+                    <div class="book-info-block">
+                        <h3 class="book-title">Go The F To Sleep</h3>
+                        <h4 class="book-author">Adam Mansbach</h4>
+                        <p class="book-description">Humorously captures the universal struggle parents face when trying to get their children to bed.
+                        </p>
+                        <h5 class="book-price">$10.99</h5>
+                        <button class="add-book-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+            <div class="book-card">
+                <img class="book-image" src="assets/Federico and the Wolf.jpeg" alt="Federico and the Wolf">
+                <div class="book-info-block">
+                    <h3 class="book-title">Federico and the Wolf</h3>
+                    <h4 class="book-author">Rebecca J. Gomez</h4>
+                    <p class="book-description">A funny, clever Mexican American retelling of Little Red Riding Hood with rhymes and a mischievous wolf.</p>
+                    <h5 class="book-price">$11.99</h5>
+                    <button class="add-book-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img class="book-image" src="assets/TheFutureBook.jpeg" alt="The Future Book">
+                <div class="book-info-block">
+                    <h3 class="book-title">The Future Book</h3>
+                    <h4 class="book-author">Mac Barnett</h4>
+                    <p class="book-description">A goofy, meta picture book that plays with the idea of what “future books” might be. Great for laughs.</p>
+                    <h5 class="book-price">$15.99</h5>
+                    <button class="add-book-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img class="book-image" src="assets/Mike Lit Shouldn't Be Hard To Find.jpg" alt="Mike Lit: Shouldn't Be Hard To Find">
+                <div class="book-info-block">
+                    <h3 class="book-title">Mike Lit: Shouldn't Be Hard To Find</h3>
+                    <h4 class="book-author">Brad Gosse</h4>
+                    <p class="book-description">A cheeky, adults only parody picture book by Brad Gosse</p>
+                    <h5 class="book-price">$15.99</h5>
+                    <button class="add-book-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img class="book-image" src="assets/DadGotCrabs.jpeg" alt="Dad Got Crabs">
+                <div class="book-info-block">
+
+                    <h3 class="book-title">Dad Got Crabs</h3>
+                    <h4 class="book-author">Brad Gosse</h4>
+                    <p class="book-description">A cheeky, adults only parody picture book by Brad Gosse</p>
+                    <h5 class="book-price">$15.99</h5>
+                    <button class="add-book-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img class="book-image" src="assets/Investigators Agents of SUIT.jpeg" alt="Investigators Agents of SUIT">
+                <div class="book-info-block">
+                    <h3 class="book-title">Investigators Agents of SUIT</h3>
+                    <h4 class="book-author">John Patrick Green</h4>
+                    <p class="book-description">A graphic novel spinoff full of puns, slapstick humor, and goofy spy antics. Kids devour this series.</p>
+                    <h5 class="book-price">$15.99</h5>
+                    <button class="add-book-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
